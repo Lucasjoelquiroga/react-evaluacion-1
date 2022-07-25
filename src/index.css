@@ -1,0 +1,75 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+body {
+    margin: 0;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+   box-shadow: 1px 1px 10px #0007 ;
+    overflow: hidden;
+    width: 400px;
+    height: 120px;
+    padding: 10px 15px 50px 10px;
+
+}
+
+.card-phrase {
+ display: flex;
+ justify-items: baseline;
+ 
+
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  
+   
+
+}
+.card-item {
+    align-self: flex-end;
+}
+.card-item button {
+    align-self: flex-end;
+    
+
+}
+.card-btn {
+   
+color: white;
+border: 0;
+width: 30px;
+aspect-ratio: 1;
+border-radius: 50%;
+font-size: 1rem;
+cursor: pointer;
+box-shadow:0 0 10px #000 ;
+
+
+}
+.card-btn:hover {
+    box-shadow: 0 0 5px #000;
+    transition: box shadow 200ms ease;
+}
+.fa-solid  {
+    font-size: 40px;
+    padding-right: 10px;
+   
+}
